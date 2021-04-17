@@ -8,7 +8,7 @@
 import Foundation
 
 /// Ошибки сервиса работы с сетью
-enum NetworkServiceError: Error {
+public enum NetworkServiceError: Error {
 	/// Некорректный url
 	case invalidUrl
 	/// Нет данных
