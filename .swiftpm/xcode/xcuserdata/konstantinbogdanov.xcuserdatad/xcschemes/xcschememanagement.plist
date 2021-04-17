@@ -17,6 +17,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>NetworkAbstraction</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>NetworkAbstractionTests</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>NetworkAbstration</key>
 		<dict>
 			<key>primary</key>

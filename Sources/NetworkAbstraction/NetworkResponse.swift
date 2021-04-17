@@ -16,4 +16,10 @@ public struct NetworkResponse<Response: Decodable> {
 
 	/// Модель данных
 	public let data: Response?
+
+	public init(httpCode: Int,
+				data: Response?) {
+		self.httpCode = httpCode
+		self.data = data
+	}
 }

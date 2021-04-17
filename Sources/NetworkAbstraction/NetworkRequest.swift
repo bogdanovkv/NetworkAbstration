@@ -25,14 +25,32 @@ public struct NetworkRequest {
 
 		/// Значение
 		public let value: String
+
+		/// Инициализатор
+		/// - Parameters:
+		///   - key: ключ
+		///   - value: значение
+		public init(key: String,
+					value: String) {
+			self.key = key
+			self.value = value
+		}
 	}
 
 	/// URL
 	public let url: URL
 
 	/// HTTP метод
-	public let methon: HTTPMethod
+	public let method: HTTPMethod
 
 	/// Параметры
 	public let parameters: [Parameter]
+
+	public init(url: URL,
+				method: HTTPMethod,
+				parameters: [Parameter]) {
+		self.url = url
+		self.method = method
+		self.parameters = parameters
+	}
 }

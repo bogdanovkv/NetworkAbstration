@@ -1,5 +1,5 @@
 import XCTest
-@testable import NetworkAbstration
+@testable import NetworkAbstraction
 
 final class NetworkAbstrationTests: XCTestCase {
     func testExample() {
