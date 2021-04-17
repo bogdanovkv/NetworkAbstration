@@ -9,13 +9,13 @@
 import Foundation
 
 /// HTTP метод
-enum HTTPMethod: String {
+public enum HTTPMethod: String {
 	case GET
 	case POST
 }
 
 /// Модель запроса в сеть
-struct NetworkRequest {
+public struct NetworkRequest {
 
 	/// Параметр запроса
 	struct Parameter {

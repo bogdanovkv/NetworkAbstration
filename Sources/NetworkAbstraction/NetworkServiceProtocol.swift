@@ -9,7 +9,7 @@
 import Foundation
 
 /// Сервис работы с сетью
-protocol NetworkServiceProtocol {
+public protocol NetworkServiceProtocol {
 
 	/// Выполняет запрос (хранит полученные данные in memory)
 	/// - Parameters:

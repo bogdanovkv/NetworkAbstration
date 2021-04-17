@@ -9,7 +9,7 @@
 import Foundation
 
 /// Ответ от сервиса работы с сетью
-struct NetworkResponse<Response: Decodable> {
+public struct NetworkResponse<Response: Decodable> {
 
 	/// Код HTTP
 	let httpCode: Int
