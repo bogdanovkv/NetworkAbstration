@@ -18,21 +18,21 @@ public enum HTTPMethod: String {
 public struct NetworkRequest {
 
 	/// Параметр запроса
-	struct Parameter {
+	public struct Parameter {
 
 		/// Ключ
-		let key: String
+		public let key: String
 
 		/// Значение
-		let value: String
+		public let value: String
 	}
 
 	/// URL
-	let url: URL
+	public let url: URL
 
 	/// HTTP метод
-	let methon: HTTPMethod
+	public let methon: HTTPMethod
 
 	/// Параметры
-	let parameters: [Parameter]
+	public let parameters: [Parameter]
 }

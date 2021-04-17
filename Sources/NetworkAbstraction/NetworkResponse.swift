@@ -12,8 +12,8 @@ import Foundation
 public struct NetworkResponse<Response: Decodable> {
 
 	/// Код HTTP
-	let httpCode: Int
+	public let httpCode: Int
 
 	/// Модель данных
-	let data: Response?
+	public let data: Response?
 }
